@@ -7,16 +7,16 @@ let browser: any;
 describe("Sandbox", () => {
   beforeAll(async () => {
     browser = process.env.GITHUB_ACTIONS
-        ? await chromium.launch()
-        : await chromium.launch({ headless: false });
+      ? await chromium.launch()
+      : await chromium.launch({ headless: false });
     page = await browser.newPage();
 
     await page
-        .goto("https://e2e-boilerplates.github.io/sandbox/", {
-          waitUntil: "networkidle0"
-        })
-        // tslint:disable-next-line:no-empty
-        .catch(() => {});
+      .goto("https://e2e-boilerplates.github.io/sandbox/", {
+        waitUntil: "networkidle0"
+      })
+      // tslint:disable-next-line:no-empty
+      .catch(() => {});
   });
 
   afterAll(() => {
@@ -28,8 +28,8 @@ describe("Sandbox", () => {
   test("should be on the sandbox", async () => {
     await page.waitFor("h1");
     const title = await page.$eval(
-        "h1",
-        (el: { textContent: any }) => el.textContent
+      "h1",
+      (el: { textContent: any }) => el.textContent
     );
 
     assert.strictEqual(await page.title(), "Sandbox");
