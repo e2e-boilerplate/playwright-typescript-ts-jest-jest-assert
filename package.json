@@ -1,7 +1,7 @@
 {
-  "name": "playwright-es6modules-typescript-jest",
+  "name": "playwright-typescript-jest-assert",
   "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Expect.",
+  "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Assert.",
   "scripts": {
     "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
     "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
