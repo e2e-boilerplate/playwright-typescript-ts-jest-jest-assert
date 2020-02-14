@@ -1,0 +1,29 @@
+name: puppeteer-typescript-jest-assert
+
+on: 
+  push:
+  schedule:
+    - cron: '0 0 2-30/2 * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: INSTALL
+      run: |
+        npm ci
+      env:
+        CI: true
+    - name: LINT
+      run: |
+        npm run lint
+    - name: TEST
+      run: |
+        npm run test

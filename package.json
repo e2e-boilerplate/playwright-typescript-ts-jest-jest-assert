@@ -1,0 +1,47 @@
+{
+  "name": "puppeteer-es6modules-typescript-jest",
+  "version": "1.0.0",
+  "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, and jest",
+  "scripts": {
+    "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "puppeteer",
+    "es6 modules",
+    "typescript",
+    "jest",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/is-ci": "2.0.0",
+    "@types/jest": "25.1.2",
+    "@types/node": "12.12.26",
+    "@types/puppeteer": "2.0.0",
+    "husky": "4.2.1",
+    "jest": "25.1.0",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "puppeteer": "2.1.1",
+    "ts-jest": "25.2.0",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "typescript": "3.7.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
