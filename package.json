@@ -23,15 +23,15 @@
   "devDependencies": {
     "@types/jest": "25.1.2",
     "@types/node": "12.12.27",
-    "@types/puppeteer": "^2.0.0",
+    "@types/puppeteer": "2.0.0",
     "husky": "4.2.3",
     "jest": "25.1.0",
     "lint-staged": "10.0.7",
-    "prettier": "^1.19.1",
+    "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "ts-jest": "25.2.0",
     "tslint": "5.20.1",
-    "tslint-plugin-prettier": "^2.1.0",
+    "tslint-plugin-prettier": "2.1.0",
     "typescript": "3.7.5"
   },
   "husky": {
