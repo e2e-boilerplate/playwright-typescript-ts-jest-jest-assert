@@ -7,6 +7,6 @@
     "typeRoots": ["node_modules/@types"],
     "esModuleInterop": true,
     "outDir": "build",
-    "types": ["node", "jest", "puppeteer"]
+    "types": ["node", "jest"]
   }
 }
