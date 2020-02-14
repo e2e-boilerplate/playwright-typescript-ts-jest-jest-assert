@@ -1,4 +1,4 @@
-name: puppeteer-typescript-jest-assert
+name: playwright-typescript-jest-assert
 
 on:
   push:
