@@ -63,3 +63,5 @@ typings/
 .idea/
 
 .DS_Store
+
+/build

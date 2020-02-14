@@ -1,22 +1,25 @@
 {
-  "name": "puppeteer-es6modules-typescript-jest",
+  "name": "playwright-es6modules-typescript-jest",
   "version": "1.0.0",
-  "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, and jest",
+  "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Expect.",
   "scripts": {
     "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
     "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
     "test": "npx jest"
   },
   "keywords": [
-    "puppeteer",
-    "es6 modules",
+    "playwright",
     "typescript",
     "jest",
     "boilerplate",
-    "example"
+    "example",
+    "e2e"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
+  "dependencies": {
+    "playwright": "^0.11.0"
+  },
   "devDependencies": {
     "@types/is-ci": "2.0.0",
     "@types/jest": "25.1.2",
@@ -25,9 +28,7 @@
     "husky": "4.2.1",
     "jest": "25.1.0",
     "lint-staged": "10.0.7",
-    "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
-    "puppeteer": "2.1.1",
     "ts-jest": "25.2.0",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
@@ -35,7 +36,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "tsc && lint-staged"
     }
   },
   "lint-staged": {
