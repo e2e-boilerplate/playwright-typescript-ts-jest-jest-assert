@@ -13,7 +13,8 @@
     "jest",
     "boilerplate",
     "example",
-    "e2e"
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
