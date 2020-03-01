@@ -1,29 +1,13 @@
 {
-  "name": "playwright-typescript-jest-assert",
-  "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Assert.",
-  "scripts": {
-    "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
-    "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
-    "test": "npx jest"
-  },
-  "keywords": [
-    "playwright",
-    "typescript",
-    "jest",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
   "dependencies": {
     "playwright": "0.11.1"
   },
+  "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Assert.",
   "devDependencies": {
     "@types/jest": "25.1.3",
     "@types/node": "12.12.28",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "jest": "25.1.0",
     "lint-staged": "10.0.7",
@@ -39,9 +23,32 @@
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "assert",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "jest",
+    "playwright",
+    "typescript"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
       "prettier --write"
     ]
-  }
+  },
+  "name": "playwright-typescript-jest-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/playwright-typescript-jest-assert.git"
+  },
+  "scripts": {
+    "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
+    "test": "npx jest"
+  },
+  "version": "1.0.0"
 }
