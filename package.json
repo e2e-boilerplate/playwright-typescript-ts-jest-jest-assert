@@ -7,7 +7,6 @@
   "devDependencies": {
     "@types/jest": "25.1.3",
     "@types/node": "12.12.29",
-    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "jest": "25.1.0",
     "lint-staged": "10.0.8",
