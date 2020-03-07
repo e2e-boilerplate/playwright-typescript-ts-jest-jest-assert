@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 name: playwright-typescript-jest-assert
 'on':
   push: null
   schedule:
     - cron: 20 2 1-31/2 * *
+=======
+name: playwright-commonjs-cucumberjs-expect
+'on':
+  push: null
+  schedule:
+    - cron: 0 0 1-31/2 * *
+>>>>>>> 091991c17755580c7afdfcd3b4c7a4ddd1211599
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +20,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+<<<<<<< HEAD
+=======
+        id: start
+>>>>>>> 091991c17755580c7afdfcd3b4c7a4ddd1211599
       - name: Installing linux packages
         run: >
           sudo apt-get update
@@ -22,7 +34,14 @@ jobs:
           libxslt1.1
 
           sudo apt-get install xvfb
+<<<<<<< HEAD
       - run: npm install
+=======
+      - name: Installing Nodejs packages
+        run: |
+          npm install
+          echo 'The time was ${{ steps.start.outputs.time }}.'
+>>>>>>> 091991c17755580c7afdfcd3b4c7a4ddd1211599
         env:
           CI: true
       - name: Lint
