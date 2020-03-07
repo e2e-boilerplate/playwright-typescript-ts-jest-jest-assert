@@ -1,4 +1,4 @@
-name: playwright-typescript-jest-assert
+name: playwright-commonjs-cucumberjs-expect
 'on':
   push: null
   schedule:
@@ -12,15 +12,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: Installing packages
-        run: npm ci
-        env:
-          CI: true
-      - name: Lint
-        run: npm run lint --if-present
-      - name: Build
-        run: npm run build --if-present
-      - name: Installing linux pakages
+        id: start
+      - name: Installing linux packages
         run: >
           sudo apt-get update
 
@@ -30,5 +23,15 @@ jobs:
           libxslt1.1
 
           sudo apt-get install xvfb
+      - name: Installing Nodejs packages
+        run: |
+          npm run ci
+          echo 'The time was ${{ steps.start.outputs.time }}.'
+        env:
+          CI: true
+      - name: Lint
+        run: npm run lint --if-present
+      - name: Build
+        run: npm run build --if-present
       - name: Executing tests
         run: npm run test
