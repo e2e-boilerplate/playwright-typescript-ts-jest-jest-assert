@@ -1,34 +1,34 @@
 name: playwright-typescript-jest-assert
-
-on:
-  push:
+'on':
+  push: null
   schedule:
-    - cron: '0 0 2-30/2 * *'
-
+    - cron: 0 0 1-31/2 * *
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js 12.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - name: install required packages
-      run: |
-        sudo apt-get update
-        sudo apt-get install libwoff1 libopus0 libwebp6 libwebpdemux2 libenchant1c2a libgudev-1.0-0 libsecret-1-0 libhyphen0 libgdk-pixbuf2.0-0 libegl1 libgles2 libevent-2.1-6 libnotify4 libxslt1.1
-        sudo apt-get install xvfb
-    - name: INSTALL
-      run: |
-        npm ci
-      env:
-        CI: true
-    - name: LINT
-      run: |
-        npm run lint
-    - name: TEST
-      run: |
-        npm run test
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Installing packages
+        run: npm ci
+        env:
+          CI: true
+      - name: Lint
+        run: npm run lint --if-present
+      - name: Build
+        run: npm run build --if-present
+      - name: Installing linux pakages
+        run: >
+          sudo apt-get update
+
+          sudo apt-get install libwoff1 libopus0 libwebp6 libwebpdemux2
+          libenchant1c2a libgudev-1.0-0 libsecret-1-0 libhyphen0
+          libgdk-pixbuf2.0-0 libegl1 libgles2 libevent-2.1-6 libnotify4
+          libxslt1.1
+
+          sudo apt-get install xvfb
+      - name: Executing tests
+        run: npm run test
