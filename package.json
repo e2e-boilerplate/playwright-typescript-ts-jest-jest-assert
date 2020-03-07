@@ -40,8 +40,8 @@
     "url": "git+https://github.com/e2e-boilerplates/playwright-typescript-jest-assert.git"
   },
   "scripts": {
-    "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
     "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
+    "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
     "test": "npx jest"
   },
   "version": "1.0.0"
