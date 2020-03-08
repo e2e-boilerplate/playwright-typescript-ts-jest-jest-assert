@@ -1,9 +1,9 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "dependencies": {
     "playwright": "0.11.1"
   },
-  "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Assert.",
+  "description": "playwright end-to-end test automation boilerplate.",
   "devDependencies": {
     "@types/jest": "25.1.4",
     "@types/node": "12.12.29",
@@ -24,6 +24,11 @@
   },
   "keywords": [
     "assert",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "jest",
     "playwright",
     "typescript"
