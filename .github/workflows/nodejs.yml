@@ -2,7 +2,7 @@ name: playwright-typescript-jest-assert
 'on':
   push: null
   schedule:
-    - cron: 5 0 1-31/2 * *
+    - cron: 10 1 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
