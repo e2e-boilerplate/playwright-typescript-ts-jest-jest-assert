@@ -6,7 +6,7 @@ Playwright end-to-end test automation boilerplate, using TypeScript, Jest and As
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/playwright-typescript-jest-assert.git
-    	cd playwright-typescript-jest-assert
-    	npm install
-    	npm run test
+    	1. git clone git@github.com:e2e-boilerplate/playwright-typescript-jest-assert.git
+    	2. cd playwright-typescript-jest-assert
+    	3. npm install
+    	4. npm run test
