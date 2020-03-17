@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/playwright-typescript-jest-assert](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/workflows/playwright-typescript-jest-assert/badge.svg)](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/actions?workflow=playwright-typescript-jest-assert)
+[![GitHub Actions status | e2e-boilerplate/playwright-typescript-jest-assert](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/workflows/playwright-typescript-jest-assert/badge.svg)](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/actions?workflow=playwright-typescript-jest-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Playwright Boilerplate
 
