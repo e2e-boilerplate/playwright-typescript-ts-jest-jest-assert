@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
     "strict": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": ["node", "jest"],
     "typeRoots": ["node_modules/@types"],
-    "esModuleInterop": true,
     "outDir": "build",
-    "types": ["node", "jest"]
+    "target": "es5"
   }
 }
