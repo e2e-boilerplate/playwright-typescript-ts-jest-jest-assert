@@ -1,8 +1,8 @@
-[![GitHub Actions status | e2e-boilerplate/playwright-typescript-jest-assert](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/workflows/playwright-typescript-jest-assert/badge.svg)](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/actions?workflow=playwright-typescript-jest-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Actions status | e2e-boilerplate/playwright-typescript-jest-assert](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/workflows/playwright-typescript-jest-assert/badge.svg)](https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/actions?workflow=playwright-typescript-jest-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Buy Me A Coffee](https://img.shields.io/badge/buy-me%20coffee-orange)](https://www.buymeacoffee.com/xgirma)
 
 # Playwright Boilerplate
 
-Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Assert.
+Playwright end-to-end test automation boilerplate, Using TypeScript, Jest and Assert.
 
 ## Getting Started
 
