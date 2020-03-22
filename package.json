@@ -1,11 +1,10 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/issues"
   },
   "dependencies": {
-    "playwright": "0.11.1",
-    "tslint-config-prettier": "^1.18.0"
+    "playwright": "0.11.1"
   },
   "description": "Playwright end-to-end test automation boilerplate. using TypeScript, Jest and Assert.",
   "devDependencies": {
@@ -17,7 +16,8 @@
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "ts-jest": "25.2.1",
-    "tslint": "^5.20.1",
+    "tslint": "^6.1.0",
+    "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.2.0",
     "typescript": "3.8.3"
   },
@@ -29,11 +29,6 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "jest",
     "playwright",
     "typescript"
