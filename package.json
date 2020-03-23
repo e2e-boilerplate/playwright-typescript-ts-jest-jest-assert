@@ -1,15 +1,16 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com>",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/playwright-typescript-jest-assert/issues"
+    "url": "https://github.com/e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/issues"
   },
   "dependencies": {
     "chromedriver": "80.0.1",
     "jest": "25.1.0",
     "playwright": "0.11.1",
+    "ts-jest": "25.2.1",
     "typescript": "3.8.3"
   },
-  "description": "Playwright end-to-end test automation boilerplate. Using TypeScript, Jest and Assert.",
+  "description": "Playwright end-to-end test automation boilerplate. Using TypeScript, ts-jest, Jest and Assert.",
   "devDependencies": {
     "@types/jest": "25.1.4",
     "@types/node": "13.9.2",
@@ -20,7 +21,7 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.2.0"
   },
-  "homepage": "https://github.com/e2e-boilerplate/playwright-typescript-jest-assert#readme",
+  "homepage": "https://github.com/e2e-boilerplate/playwright-typescript-ts-jest-jest-assert#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -35,6 +36,7 @@
     "integration test",
     "jest",
     "playwright",
+    "ts-jest",
     "typescript"
   ],
   "license": "MIT",
@@ -43,10 +45,10 @@
       "prettier --write"
     ]
   },
-  "name": "playwright-typescript-jest-assert",
+  "name": "playwright-typescript-ts-jest-jest-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/playwright-typescript-jest-assert.git"
+    "url": "git+https://github.com/e2e-boilerplate/playwright-typescript-ts-jest-jest-assert.git"
   },
   "scripts": {
     "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
