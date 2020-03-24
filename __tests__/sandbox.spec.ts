@@ -13,7 +13,7 @@ describe("Sandbox", () => {
 
     await page
       .goto("https://e2e-boilerplate.github.io/sandbox/", {
-        waitUntil: "networkidle0"
+        waitUntil: "networkidle0",
       })
       // tslint:disable-next-line:no-empty
       .catch(() => {});
