@@ -2,13 +2,13 @@ name: playwright-typescript-ts-jest-jest-assert
 'on':
   push: null
   schedule:
-    - cron: 40 4 1-31/2 * *
+    - cron: 30 3 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: NPM_INSTALL
+      - name: node
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
@@ -22,12 +22,13 @@ jobs:
           libxslt1.1
 
           sudo apt-get install xvfb
-      - run: npm install
+      - name: 'npm:install'
+        run: npm install
         env:
           CI: true
-      - name: LINT
+      - name: lint
         run: npm run lint --if-present
-      - name: BUILD
+      - name: build
         run: npm run build --if-present
-      - name: EXECUTING_TESTS
+      - name: test
         run: npm run test
