@@ -2,7 +2,7 @@ name: playwright-typescript-ts-jest-jest-assert
 'on':
   push: null
   schedule:
-    - cron: 30 3 1-31/2 * *
+    - cron: 20 2 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: INSTALLING_LINUX_PACKAGES
+      - name: 'install:linux'
         run: >
           sudo apt-get update
 
