@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "chromedriver": "80.0.1",
-    "jest": "25.2.4",
+    "jest": "25.2.6",
     "playwright": "0.12.1",
     "ts-jest": "25.3.0",
     "ts-node": "8.8.1",
