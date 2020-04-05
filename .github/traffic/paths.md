@@ -1,0 +1,12 @@
+| referrer                                                                                         | count | uniques |
+| :----------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert                                       | 27    | 8       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/tree/master/__tests__                 | 14    | 7       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/blob/master/__tests__/sandbox.spec.ts | 11    | 7       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/blob/master/package.json              | 10    | 4       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/commits/master                        | 6     | 1       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/blob/master/tsconfig.json             | 5     | 2       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/blob/master/jest.config.js            | 4     | 3       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/actions                               | 4     | 2       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/actions/runs/61150967                 | 3     | 2       |
+| /e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/runs/526458338                        | 3     | 2       |
