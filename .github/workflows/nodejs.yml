@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: 'install:linux'
+      - name: 'install:linux:dep'
         run: >
           sudo apt-get update
 
