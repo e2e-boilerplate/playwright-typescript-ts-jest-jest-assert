@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/issues"
   },
   "dependencies": {
-    "chromedriver": "81.0.0",
+    "chromedriver": "83.0.0",
     "jest": "26.0.1",
     "playwright": "1.0.2",
     "ts-jest": "26.0.0",
