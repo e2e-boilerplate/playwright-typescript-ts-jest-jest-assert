@@ -8,7 +8,7 @@
     "jest": "26.0.1",
     "playwright": "1.0.2",
     "ts-jest": "26.1.0",
-    "typescript": "3.9.3"
+    "typescript": "3.9.5"
   },
   "description": "Playwright end-to-end test automation boilerplate. Using TypeScript, ts-jest, Jest and Assert.",
   "devDependencies": {
