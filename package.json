@@ -15,7 +15,7 @@
     "@types/jest": "26.0.0",
     "@types/node": "13.13.12",
     "husky": "4.2.5",
-    "lint-staged": "10.2.10",
+    "lint-staged": "10.2.11",
     "prettier": "2.0.4",
     "tslint": "6.1.2",
     "tslint-config-prettier": "1.18.0",
