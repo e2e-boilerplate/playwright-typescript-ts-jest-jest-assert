@@ -7,7 +7,7 @@
     "chromedriver": "83.0.0",
     "jest": "26.0.1",
     "playwright": "1.1.1",
-    "ts-jest": "26.1.0",
+    "ts-jest": "26.1.1",
     "typescript": "3.9.5"
   },
   "description": "Playwright end-to-end test automation boilerplate. Using TypeScript, ts-jest, Jest and Assert.",
