@@ -12,7 +12,7 @@
   },
   "description": "Playwright end-to-end test automation boilerplate. Using TypeScript, ts-jest, Jest and Assert.",
   "devDependencies": {
-    "@types/jest": "26.0.2",
+    "@types/jest": "26.0.3",
     "@types/node": "13.13.12",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
