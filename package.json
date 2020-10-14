@@ -6,7 +6,7 @@
   "dependencies": {
     "chromedriver": "85.0.1",
     "jest": "26.5.3",
-    "playwright": "1.5.0",
+    "playwright": "1.5.1",
     "ts-jest": "26.4.1",
     "typescript": "4.0.3"
   },
